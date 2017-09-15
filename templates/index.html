@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}
+	Main Page
+{% endblock %}
+{% block indexcontent %}
+	<h1>Wazzup</h1>
+	<a href="/admin/" class="to_adm">Admin Page</a>
+	{% include 'inc-login_form.html' %}
+{% endblock %}
